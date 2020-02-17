@@ -26,6 +26,6 @@ public class QueryProcessorTest {
 
     @Test
     public void isPingPong() throws Exception {
-        assertThat(queryProcessor.process("ping"), containsString("pong0"));
+        assertThat(queryProcessor.process("ping"), containsString("pong"));
     }
 }
