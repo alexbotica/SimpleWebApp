@@ -50,7 +50,7 @@ public class WebServer {
     public static void main(String[] args) throws Exception {
         int port = Optional.ofNullable(System.getenv("PORT"))
                 .map(Integer::parseInt)
-                .orElse(8081);
+                .orElse(8080);
         new WebServer(port);
     }
 }
