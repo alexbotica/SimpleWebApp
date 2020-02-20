@@ -6,6 +6,6 @@ node {
       sh "./gradlew clean test"
    }
    stage('Deploy') {
-      git "push https://git.heroku.com/lit-wave-60289.git master"
+      sh "git push https://git.heroku.com/lit-wave-60289.git master"
    }
 }
