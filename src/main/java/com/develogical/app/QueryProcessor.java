@@ -18,6 +18,11 @@ public class QueryProcessor {
         {
             return "yes";
         }
+        else
+        if (query.toLowerCase().contains("circleci"))
+        {
+            return "yes, CircleCI";
+        }
         return "";
     }
 }
