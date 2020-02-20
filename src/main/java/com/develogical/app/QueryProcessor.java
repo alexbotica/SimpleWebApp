@@ -11,6 +11,10 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("ping")) {
             return "pong";
         }
+        else
+        if (query.toLowerCase().contains("heroku")) {
+            return "yes";
+        }
         return "";
     }
 }
